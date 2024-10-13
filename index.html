@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Julia Ramov - Moviemaker</title>
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.jpg" alt="Logo JuliaRamov">
+                </a>
+            </div>
+            <nav class="menu desktop">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Especialidades</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="https://wa.me/5535992263539?text=Olá%20Julia!%20Gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!" target="_blank">
+                    <button>Contato</button>
+                </a>
+            </div><!-- btn-contato -->
+        </div>
+    </header>
+
+    <!-- VIDEO DESTAQUE -->
+    <section class="video-destaque">
+        <video autoplay muted loop>
+            <source src="video/destaque.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+        <div class="overlay">
+            <h1>Julia Ramov</h1>
+            <p>Criatividade em Movimento</p>
+        </div>
+    </section>
+
+    <!-- ESPECIALIDADES -->
+    <section data-aos="fade-up">
+        <h2>Especialidades</h2>
+        <p>Vídeo marketing, edição criativa, videoclipes e muito mais!</p>
+    </section>
+
+    <!-- GALERIA DE PROJETOS -->
+    <section class="galeria">
+        <h2>Projetos Recentes</h2>
+        <div class="projetos">
+            <a href="images/projeto1.jpg" data-lightbox="portfolio">
+                <img src="images/thumb1.jpg" alt="Projeto 1">
+            </a>
+            <a href="images/projeto2.jpg" data-lightbox="portfolio">
+                <img src="images/thumb2.jpg" alt="Projeto 2">
+            </a>
+            <!-- Mais projetos -->
+        </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="depoimentos">
+        <h2>O que dizem os clientes</h2>
+        <div class="depoimento">
+            <p>"Trabalho impecável! A edição ficou sensacional e captou a essência do projeto."</p>
+            <span>- Cliente 1</span>
+        </div>
+        <div class="depoimento">
+            <p>"A Julia é extremamente profissional e entregou um resultado além do esperado!"</p>
+            <span>- Cliente 2</span>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 Julia Ramov - Todos os direitos reservados.</p>
+            <ul class="socials">
+                <li><a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a></li>
+                <li><a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="images/youtube-icon.png" alt="YouTube"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- JS DO AOS (ANIMAÇÃO AO SCROLL) -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
